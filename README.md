@@ -1,0 +1,1 @@
+I've implemented a complete e-commerce solution for Brick.lk, modeled after Amazon but tailored specifically for Sri Lanka's construction market. The application features a responsive design with dedicated sections for browsing construction products, services, and suppliers.

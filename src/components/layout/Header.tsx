@@ -93,7 +93,7 @@ const Header: React.FC = () => {
             {isAuthenticated ? (
               <div className="relative group">
                 <button className="flex items-center text-slate-800 hover:text-orange-600 font-medium">
-                  <User size={20} className="mr-1" /> {user?.name.split(' ')[0]}
+                  <User size={20} className="mr-1" /> {user?.name ? user.name.split(' ')[0] : 'User'}
                 </button>
                 <div className="absolute right-0 top-full hidden group-hover:block bg-white shadow-lg rounded-md py-2 w-48">
                   <Link to="/account" className="block px-4 py-2 text-slate-700 hover:bg-orange-50 hover:text-orange-600">

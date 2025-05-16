@@ -85,3 +85,12 @@ export const products: Product[] = [
     reviews: [],
   },
 ];
+
+
+export const getProductById = (id: string): Product | undefined => {
+  return products.find(product => product.id === id);
+};
+
+export const getRelatedProducts = (category: string, currentId: string): Product[] => {
+  return products.filter(product => product.category === category && product.id !== currentId).slice(0, 4);
+};

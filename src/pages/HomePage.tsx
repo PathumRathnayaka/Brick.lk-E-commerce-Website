@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
               </div>
               <div className="md:w-1/2 relative">
                 <img 
-                  src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="https://www.latrobe.edu.au/courses/images/LTU_ME_35761_1400_4.jpg" 
                   alt="Construction site" 
                   className="w-full h-full object-cover"
                 />

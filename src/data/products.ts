@@ -8,7 +8,7 @@ export const products: Product[] = [
     price: 1250,
     imageUrl: 'https://images.pexels.com/photos/5691544/pexels-photo-5691544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     category: 'Building Materials',
-    subcategory: 'Cement',
+    subcategory: 'Aluminium',
     brand: 'Holcim',
     rating: 4.7,
     stock: 500,
